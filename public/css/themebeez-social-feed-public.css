@@ -1,0 +1,68 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .tsf-row {
+ 	display: -ms-flexbox;
+ 	display: flex;
+ 	-ms-flex-wrap: wrap;
+ 	flex-wrap: wrap;
+ }
+
+.tsf-row li.tsf-col {
+ 	-ms-flex-preferred-size: 0;
+ 	flex-basis: 0;
+ 	-ms-flex-positive: 1;
+ 	flex-grow: 1;
+ 	max-width: 100%;
+}
+
+.tsf-col-1 li.tsf-col {
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+
+.tsf-col-2 li.tsf-col {
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+
+.tsf-col-3 li.tsf-col {
+	-ms-flex: 0 0 33.33333%;
+	flex: 0 0 33.33333%;
+	max-width: 33.33333%;
+}
+
+.tsf-col-4 li.tsf-col {
+	-ms-flex: 0 0 25%;
+	flex: 0 0 25%;
+	max-width: 25%;
+}
+
+.tsf-col-5 li.tsf-col {
+	-ms-flex: 0 0 20%;
+	flex: 0 0 20%;
+	max-width: 20%;
+}
+
+.tsf-col-6 li.tsf-col {
+	-ms-flex: 0 0 16.66667%;
+	flex: 0 0 16.66667%;
+	max-width: 16.66667%;
+}
+
+.tsf-item figcaption {	
+	padding: 5px 15px;
+	text-align: center;
+}
+
+.tsf-instagram-button-wrapper {	
+	margin-top: 20px;
+	text-align: center;
+}
+
+.tsf-instagram-button-wrapper .instagram-button {
+	padding: 10px 15px;
+}
